@@ -4,7 +4,8 @@
   <br>
 </h1>
 
-<h4 align="center">Sunucu içerisinde olan her şeyi loglayan discord botu.</h4>
+<h4 align="center">Sunucu içerisinde olan her şeyi loglayan discord botu.
+https://www.youtube.com/watch?v=Z0Tb6tu1O4I</h4>
 
 <p align="center">
   <a href="https://discord.gg/red">
