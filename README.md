@@ -13,6 +13,8 @@ https://www.youtube.com/watch?v=Z0Tb6tu1O4I</h4>
   </a>
 </p>
 
+<iframe width="1479" height="578" src="https://www.youtube.com/embed/Z0Tb6tu1O4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <p align="center">
   <a href="#overview">Hakkında</a>
   •
