@@ -12,9 +12,12 @@ https://www.youtube.com/watch?v=Z0Tb6tu1O4I</h4>
     <img src="https://discordapp.com/api/guilds/875040706421469224/widget.png?style=shield" alt="Discord Server">
   </a>
   
-<iframe width="1479" height="578" src="https://www.youtube.com/embed/Z0Tb6tu1O4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
+ ## Bot Tanıtım Videosu
+ [Bot Tanıtım Videosu](https://www.youtube.com/watch?v=Z0Tb6tu1O4I)
+ 
+ [![Bot Tanıtım Videosu](https://ibidi.is-inside.me/JCtOh3dN.png)](https://www.youtube.com/watch?v=Z0Tb6tu1O4I)
 
 <p align="center">
   <a href="#overview">Hakkında</a>
