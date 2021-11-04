@@ -22,7 +22,7 @@
 
 # Hakkında
 
-Hey, Selam! Sende eğer YouTube kanalımdan buraya geldiysen videodan tam olarak anlam çıkaramaya bilirsin.
+Hey, Selam! Sende eğer YouTube kanalımdan buraya geldiysen videodan tam olarak anlam çıkaramayabilirsin.
 Bundan ötürü de aşağıya sizler için ufak bilgilerle kurulum açıklaması bıraktım.
 Sunucuda a'dan z'ye kadar her şeyi bot otomatik olarak kayıt altına almaktadır.
 
