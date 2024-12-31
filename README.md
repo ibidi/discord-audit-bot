@@ -1,10 +1,33 @@
+<div align="center">
+
 # Discord Audit Bot 🛡️
 
-Discord sunucunuz için gelişmiş denetim ve moderasyon botu. MongoDB entegrasyonu ile güçlendirilmiş, kapsamlı log sistemi ve otomatik moderasyon özellikleri sunar.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Discord.js](https://img.shields.io/badge/discord.js-v14-blue.svg)](https://discord.js.org)
+[![Node.js](https://img.shields.io/badge/node.js-v16.9.0-green.svg)](https://nodejs.org)
+[![MongoDB](https://img.shields.io/badge/mongodb-v5-green.svg)](https://www.mongodb.com)
 
-## 🌟 Özellikler
+<p align="center">
+  <img src="https://i.imgur.com/XYZ123.png" alt="Bot Logo" width="200"/>
+  <br>
+  Discord sunucunuz için gelişmiş denetim ve moderasyon botu.
+  <br>
+  MongoDB entegrasyonu ile güçlendirilmiş, kapsamlı log sistemi ve otomatik moderasyon özellikleri.
+</p>
 
-### 📝 Detaylı Log Sistemi
+[Özellikleri Keşfet](#-özellikler) • 
+[Hızlı Başlangıç](#-hızlı-başlangıç) • 
+[Komutlar](#-komutlar) • 
+[Yapılandırma](#%EF%B8%8F-yapılandırma) • 
+[Katkıda Bulun](#-katkıda-bulunma)
+
+</div>
+
+## ✨ Özellikler
+
+<details>
+<summary>📝 Detaylı Log Sistemi</summary>
+
 - Mesaj silme/düzenleme logları
 - Üye giriş/çıkış ve yasaklama logları
 - Rol ve kanal değişiklik logları
@@ -15,154 +38,225 @@ Discord sunucunuz için gelişmiş denetim ve moderasyon botu. MongoDB entegrasy
 - Webhook ve entegrasyon değişiklikleri
 - Stage etkinlik logları
 - Kullanıcı durumu değişiklikleri
+</details>
 
-### 🤖 Otomatik Moderasyon
+<details>
+<summary>🤖 Otomatik Moderasyon</summary>
+
 - Anti-spam sistemi
 - Link engelleme
 - Raid koruması
-- Otomatik ceza sistemi (Uyarı, Susturma, Atma, Yasaklama)
+- Otomatik ceza sistemi
+  - Uyarı
+  - Susturma
+  - Atma
+  - Yasaklama
 - Özelleştirilebilir filtreler
+</details>
 
-### 💾 Yedekleme Sistemi
+<details>
+<summary>💾 Yedekleme Sistemi</summary>
+
 - Rol yedekleme
 - Kanal yedekleme
 - Sunucu ayarları yedekleme
 - Yedekleri listeleme ve geri yükleme
+</details>
 
-### ⚠️ Uyarı Sistemi
+<details>
+<summary>⚠️ Uyarı Sistemi</summary>
+
 - Süreli/süresiz uyarılar
 - Uyarı listesi görüntüleme
 - Uyarı kaldırma
 - Otomatik uyarı temizleme
+</details>
 
-### 📊 İstatistikler
+<details>
+<summary>📊 İstatistikler</summary>
+
 - Moderasyon istatistikleri
 - Sunucu aktivite istatistikleri
 - Detaylı log istatistikleri
+</details>
 
-## 🚀 Kurulum
+## 🚀 Hızlı Başlangıç
 
 1. Repository'yi klonlayın:
-\`\`\`bash
-git clone https://github.com/ibidi/discord-audit-bot.git
+```bash
+git clone https://github.com/kullaniciadi/discord-audit-bot.git
 cd discord-audit-bot
-\`\`\`
+```
 
 2. Gerekli paketleri yükleyin:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
-3. \`.env\` dosyasını oluşturun:
-\`\`\`env
+3. `.env` dosyasını oluşturun:
+```env
 TOKEN=DISCORD_BOT_TOKEN
 MONGODB_URI=MONGODB_BAGLANTI_URI
 LOG_CHANNEL_ID=VARSAYILAN_LOG_KANALI_ID
-\`\`\`
+```
 
 4. Botu başlatın:
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 ## 📚 Komutlar
 
-### Moderasyon Komutları
-- \`/warn add\` - Kullanıcıya uyarı ver
-- \`/warn list\` - Uyarıları listele
-- \`/warn remove\` - Uyarı kaldır
+<details>
+<summary>👮 Moderasyon Komutları</summary>
 
-### Yedekleme Komutları
-- \`/backup create\` - Yeni yedek oluştur
-- \`/backup list\` - Yedekleri listele
-- \`/backup load\` - Yedek geri yükle
+| Komut | Açıklama |
+|-------|-----------|
+| `/warn add` | Kullanıcıya uyarı ver |
+| `/warn list` | Uyarıları listele |
+| `/warn remove` | Uyarı kaldır |
+</details>
 
-### AutoMod Komutları
-- \`/automod antispam setup\` - Anti-spam ayarları
-- \`/automod antilink setup\` - Link engelleme ayarları
-- \`/automod raidprotection setup\` - Raid koruması ayarları
+<details>
+<summary>💾 Yedekleme Komutları</summary>
 
-### Log Komutları
-- \`/logs\` - Log kayıtlarını görüntüle
-- \`/setlogchannel\` - Log kanalını ayarla
-- \`/filter\` - Log filtrelerini ayarla
+| Komut | Açıklama |
+|-------|-----------|
+| `/backup create` | Yeni yedek oluştur |
+| `/backup list` | Yedekleri listele |
+| `/backup load` | Yedek geri yükle |
+</details>
 
-### İstatistik Komutları
-- \`/stats\` - Sunucu istatistiklerini görüntüle
-- \`/clear-stats\` - İstatistikleri sıfırla
+<details>
+<summary>🤖 AutoMod Komutları</summary>
+
+| Komut | Açıklama |
+|-------|-----------|
+| `/automod antispam setup` | Anti-spam ayarları |
+| `/automod antilink setup` | Link engelleme ayarları |
+| `/automod raidprotection setup` | Raid koruması ayarları |
+</details>
+
+<details>
+<summary>📝 Log Komutları</summary>
+
+| Komut | Açıklama |
+|-------|-----------|
+| `/logs` | Log kayıtlarını görüntüle |
+| `/setlogchannel` | Log kanalını ayarla |
+| `/filter` | Log filtrelerini ayarla |
+</details>
+
+<details>
+<summary>📊 İstatistik Komutları</summary>
+
+| Komut | Açıklama |
+|-------|-----------|
+| `/stats` | Sunucu istatistiklerini görüntüle |
+| `/clear-stats` | İstatistikleri sıfırla |
+</details>
 
 ## ⚙️ Yapılandırma
 
-### Log Filtreleri
-\`\`\`javascript
-messages: true/false    // Mesaj logları
-members: true/false     // Üye logları
-voice: true/false      // Ses logları
-roles: true/false      // Rol logları
-channels: true/false   // Kanal logları
-reactions: true/false  // Reaksiyon logları
-threads: true/false    // Thread logları
-invites: true/false    // Davet logları
-presence: true/false   // Durum logları
-webhooks: true/false   // Webhook logları
-\`\`\`
+<details>
+<summary>Log Filtreleri</summary>
 
-### AutoMod Ayarları
-\`\`\`javascript
-antiSpam: {
-    enabled: true/false,
-    maxMessages: 5,     // Maksimum mesaj sayısı
-    interval: 5000,     // MS cinsinden süre
-    action: 'warn'      // warn, mute, kick, ban
+```javascript
+{
+    "messages": true,    // Mesaj logları
+    "members": true,     // Üye logları
+    "voice": true,       // Ses logları
+    "roles": true,       // Rol logları
+    "channels": true,    // Kanal logları
+    "reactions": true,   // Reaksiyon logları
+    "threads": true,     // Thread logları
+    "invites": true,     // Davet logları
+    "presence": false,   // Durum logları
+    "webhooks": true     // Webhook logları
 }
+```
+</details>
 
-antiLink: {
-    enabled: true/false,
-    action: 'warn'      // warn, mute, kick, ban
-}
+<details>
+<summary>AutoMod Ayarları</summary>
 
-raidProtection: {
-    enabled: true/false,
-    joinThreshold: 10,  // Maksimum katılım sayısı
-    timeWindow: 10000,  // MS cinsinden süre
-    action: 'lockdown'  // lockdown, kick
+```javascript
+{
+    "antiSpam": {
+        "enabled": true,
+        "maxMessages": 5,     // Maksimum mesaj sayısı
+        "interval": 5000,     // MS cinsinden süre
+        "action": "warn"      // warn, mute, kick, ban
+    },
+    "antiLink": {
+        "enabled": true,
+        "action": "warn"      // warn, mute, kick, ban
+    },
+    "raidProtection": {
+        "enabled": true,
+        "joinThreshold": 10,  // Maksimum katılım sayısı
+        "timeWindow": 10000,  // MS cinsinden süre
+        "action": "lockdown"  // lockdown, kick
+    }
 }
-\`\`\`
+```
+</details>
 
 ## 📋 Gereksinimler
 
-- Node.js v16.9.0 veya üstü
-- MongoDB
-- Discord Bot Token
-- Discord.js v14
+| Gereksinim | Versiyon |
+|------------|----------|
+| Node.js | v16.9.0+ |
+| MongoDB | v5.0+ |
+| Discord.js | v14 |
 
 ## 🔒 Bot İzinleri
 
 Bot'un düzgün çalışması için gerekli izinler:
-- Mesajları Yönet
-- Üyeleri Yasakla
-- Üyeleri At
-- Rolleri Yönet
-- Kanalları Yönet
-- Webhook'ları Yönet
-- Denetim Kaydını Görüntüle
-- Üyeleri Sustur
-- Mesaj Geçmişini Görüntüle
+
+- [x] Mesajları Yönet
+- [x] Üyeleri Yasakla
+- [x] Üyeleri At
+- [x] Rolleri Yönet
+- [x] Kanalları Yönet
+- [x] Webhook'ları Yönet
+- [x] Denetim Kaydını Görüntüle
+- [x] Üyeleri Sustur
+- [x] Mesaj Geçmişini Görüntüle
 
 ## 🤝 Katkıda Bulunma
 
 1. Bu repository'yi fork'layın
-2. Yeni bir branch oluşturun (\`git checkout -b feature/yeniözellik\`)
-3. Değişikliklerinizi commit'leyin (\`git commit -am 'Yeni özellik: Açıklama'\`)
-4. Branch'inizi push'layın (\`git push origin feature/yeniözellik\`)
+2. Yeni bir branch oluşturun (`git checkout -b feature/yeniözellik`)
+3. Değişikliklerinizi commit'leyin (`git commit -am 'Yeni özellik: Açıklama'`)
+4. Branch'inizi push'layın (`git push origin feature/yeniözellik`)
 5. Bir Pull Request oluşturun
 
 ## 📄 Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakın.
+Bu proje [MIT lisansı](LICENSE) altında lisanslanmıştır.
 
 ## 🙏 Teşekkürler
 
-- [Discord.js](https://discord.js.org/)
-- [MongoDB](https://www.mongodb.com/)
-- [Node.js](https://nodejs.org/) 
+Bu projenin geliştirilmesinde kullanılan harika araçlar:
+
+<div align="center">
+  <a href="https://discord.js.org">
+    <img src="https://discord.js.org/static/logo.svg" width="50" alt="Discord.js" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.mongodb.com">
+    <img src="https://raw.githubusercontent.com/mongodb/mongo/master/docs/leaf.svg" width="50" alt="MongoDB" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://nodejs.org">
+    <img src="https://nodejs.org/static/images/logo.svg" width="50" alt="Node.js" />
+  </a>
+</div>
+
+---
+<div align="center">
+  Geliştirici: [Kullanıcı Adı](https://github.com/kullaniciadi) • 
+  [Discord Sunucusu](https://discord.gg/DAVET_KODU) • 
+  [Botu Davet Et](https://discord.com/api/oauth2/authorize?client_id=BOT_ID&permissions=8&scope=bot%20applications.commands)
+</div> 
