@@ -44,7 +44,7 @@ Discord sunucunuz için gelişmiş denetim ve moderasyon botu. MongoDB entegrasy
 
 1. Repository'yi klonlayın:
 \`\`\`bash
-git clone https://github.com/kullaniciadi/discord-audit-bot.git
+git clone https://github.com/ibidi/discord-audit-bot.git
 cd discord-audit-bot
 \`\`\`
 
