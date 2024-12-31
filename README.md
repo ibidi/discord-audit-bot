@@ -8,7 +8,7 @@
 [![MongoDB](https://img.shields.io/badge/mongodb-v5-green.svg)](https://www.mongodb.com)
 
 <p align="center">
-  <img src="https://i.imgur.com/XYZ123.png" alt="Bot Logo" width="200"/>
+  <img src="https://i.hizliresim.com/6zrez9c.png" alt="Bot Logo" width="200"/>
   <br>
   Discord sunucunuz için gelişmiş denetim ve moderasyon botu.
   <br>
@@ -84,7 +84,7 @@
 
 1. Repository'yi klonlayın:
 ```bash
-git clone https://github.com/kullaniciadi/discord-audit-bot.git
+git clone https://github.com/ibidi/discord-audit-bot.git
 cd discord-audit-bot
 ```
 
@@ -256,7 +256,7 @@ Bu projenin geliştirilmesinde kullanılan harika araçlar:
 
 ---
 <div align="center">
-  Geliştirici: [Kullanıcı Adı](https://github.com/kullaniciadi) • 
-  [Discord Sunucusu](https://discord.gg/DAVET_KODU) • 
+  Geliştirici: [ibidi](https://github.com/ibidi) • 
+  [Discord Sunucusu](https://discord.gg/) • 
   [Botu Davet Et](https://discord.com/api/oauth2/authorize?client_id=BOT_ID&permissions=8&scope=bot%20applications.commands)
 </div> 
