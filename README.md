@@ -253,10 +253,3 @@ Bu projenin geliştirilmesinde kullanılan harika araçlar:
     <img src="https://nodejs.org/static/images/logo.svg" width="50" alt="Node.js" />
   </a>
 </div>
-
----
-<div align="center">
-  Geliştirici: [ibidi](https://github.com/ibidi) • 
-  [Discord Sunucusu](https://discord.gg/) • 
-  [Botu Davet Et](https://discord.com/api/oauth2/authorize?client_id=BOT_ID&permissions=8&scope=bot%20applications.commands)
-</div> 
