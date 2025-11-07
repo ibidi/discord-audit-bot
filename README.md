@@ -1,6 +1,6 @@
 <div align="center">
 
-# Discord Audit Bot 🛡️
+# Discord Audit Bot v2 🛡️
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Discord.js](https://img.shields.io/badge/discord.js-v14-blue.svg)](https://discord.js.org)
